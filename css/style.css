@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Slabo+27px&display=swap');
+:root {
+    --headings: black;
+    --text: white;
+    --background:#d08055;
+    --headings-font-family: 'Merriweather Sans', sans-serif;
+    --text-font-family: 'Slabo 27px', serif;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: var(--text)
+}
+
+h2{
+    color: var(--headings);
+    font-family: var(--headings-font-family);
+    font-size: 2.5rem;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted var(--text) 16px;
+    border-bottom: none;
+    margin: 5rem auto;
+    width: 10%;
+}
+
+.middle-container {
+    margin: 5rem 0;
+}
+
+.image-cropper {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.bemari-img {
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
+}
+
+h1 {
+    font-family: var(--headings-font-family);
+}
+
+.skill-row {
+    text-align: left;
+    margin: 2rem auto;
+    width: 50%;
+    overflow: hidden;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 5rem;
+    border-radius: 15%;
+}
+
+.Hobby-img{
+    width: 25%;
+    float: left;
+    margin-right: 5rem;
+    border-radius: 15%;
+}
+
+.btn{
+    width: 16rem;
+    display: block;
+    font: bold 11px Arial;
+    text-decoration: none;
+    font-size-adjust: 1;
+    background-color:  #d08055;
+    color: black;
+    margin: 0rem auto;
+    padding: 2px 6px 2px 6px;
+    border-top: var(--headings);
+    padding: 1rem;
+}
+
+.bottom-link{
+display: inline-block;
+justify-content: center ;
+align-items: center;
+}
+
+.li-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-wrapper {
+    margin-right: 1rem;
+
+}
+
+.li-wrapper a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+.copyright {
+    
+}
