@@ -5,8 +5,6 @@
     --background:#d08055;
     --headings-font-family: 'Merriweather Sans', sans-serif;
     --text-font-family: 'Slabo 27px', serif;
-
-
 }
 
 * {
@@ -14,7 +12,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     background-color: var(--background);
@@ -53,13 +50,6 @@ hr{
     margin: 0 auto;
 }
 
-.bemari-img {
-    margin: 0 auto;
-    margin-left: -25%;
-    height: 100%;
-    width: auto;
-}
-
 h1 {
     font-family: var(--headings-font-family);
 }
@@ -76,27 +66,6 @@ h1 {
     float: left;
     margin-right: 5rem;
     border-radius: 15%;
-}
-
-.Hobby-img{
-    width: 25%;
-    float: left;
-    margin-right: 5rem;
-    border-radius: 15%;
-}
-
-.btn{
-    width: 16rem;
-    display: block;
-    font: bold 11px Arial;
-    text-decoration: none;
-    font-size-adjust: 1;
-    background-color:  #d08055;
-    color: black;
-    margin: 0rem auto;
-    padding: 2px 6px 2px 6px;
-    border-top: var(--headings);
-    padding: 1rem;
 }
 
 .bottom-link{
@@ -120,8 +89,4 @@ align-items: center;
 .li-wrapper a {
     text-decoration: none;
     color: var(--text);
-}
-
-.copyright {
-    
 }
